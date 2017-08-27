@@ -5,17 +5,17 @@ http://developerlaunchpad.com/2017/08/26/Church-Directory/
 # Church Directory
 You have been asked by a local church for help maintaining their directory and to build functions that will automate tasks for the church staff.
 
-##Challenge
+## Challenge
 
 For this challenge we will be dealing with building complex objects and manipulating them. This may involve reading and writing to a file and creating a user interface for entering data. Since the challenge is not about designing good UI your interface may be console based or a simple HTML page, but it will need to have all the functionality required for the level of challenge you choose.
 
 Similar to last month you will be presented with what the end user wants to be able to do but the actual design and architecture is up to you to create.
 
-##Creating a Test Case
+## Creating a Test Case
 
 We’ll continue to use test driven development. No matter the level you choose write a test case before you start coding. Then write enough code to pass the test. Once you have a passing test write more tests and refactor you code to accommodate all possible tests.
 
-##Level 1
+## Level 1
 
 The first step in an active church directory is to be able to enter the information for each family in the church. Store this information to a file for future retrieval.
 
@@ -50,7 +50,7 @@ family: {
 }
 ```
 
-##A Step Further
+## A Step Further
 
 Make your directory indexable. The church has asked that they be able to look up families by last name so they can quickly update their information such as change of address or new child.
 
